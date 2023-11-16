@@ -1,2 +1,0 @@
-# daniel-mcknight
-Personal Portfolio
