@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: white;
+}
+
+#navbar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.8rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 0.5rem; 
+}
+
+#navbar a:hover {
+    background-color: #555;
+}
+
+#welcome-section,
+#projects,
+#contact {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.project-tile {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    margin: 1rem 0;
+    background: beige;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.linkedin {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .project-tile {
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+
+  }
+}
+
+@media (max-width: 600px) {
+    .project-tile a {
+        color: white;
+    }
+}
+
+@media (max-width: 600px) {
+    #profile-link {
+        font-size: 2rem;
+        color: black;
+    }
+}
